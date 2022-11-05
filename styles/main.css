@@ -204,3 +204,17 @@ section {
     transform: translateX(0rem);
   }
 }
+
+/* ///////////////////////////////////////////////////// */
+/* //////////////// MOBILE RESPONSIVENESS ///////////// */
+/* //////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 990px) {
+  .project__img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  html {
+    font-size: 7px;
+  }
+}
