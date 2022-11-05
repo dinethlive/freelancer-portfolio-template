@@ -1,7 +1,7 @@
 <h1>Simple Freelancer Portfolio Reusable Template</h1>
 
 <h1>
-  <a href="https://dinethlive.github.io/junior-portfolio-template/">DEMO</a>
+  <a href="https://dinethlive.github.io/junior-portfolio-template/">🔥 DEMO 🔥</a>
 </h1>
 
 <hr />
@@ -83,4 +83,4 @@
 ```
 
 <hr />
-<h3>Show yout love ❤️</h3>
+<h3>❤️ Show yout love ❤️</h3>
