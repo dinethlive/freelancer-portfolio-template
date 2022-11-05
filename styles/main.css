@@ -133,6 +133,44 @@ section {
   color: var(--bg-dark);
   box-shadow: var(--box-shadow-hover);
 }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.footer__pofile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__profile__pic {
+  width: 29rem;
+  border-radius: 50%;
+}
+.footer__button {
+  padding: 2rem 12rem;
+  border-radius: 20rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  background-color: var(--clr-btn-primary);
+  color: var(--bg-dark);
+  font-weight: 600;
+  border: none;
+}
+
+.footer__profile__name {
+  font-weight: 500;
+  font-size: 3rem;
+  color: var(--clr-main);
+  text-align: center;
+}
+
+.footer__profile__position {
+  color: var(--clr-secondary);
+  font-size: 2rem;
+  text-align: center;
+}
+
 @keyframes moveFromRight {
   0% {
     transform: translateX(1rem);
