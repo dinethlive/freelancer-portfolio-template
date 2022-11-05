@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* /////////////////////////////////////////////// */
+/* //////////////// VARIABLES ///////////// */
+/* //////////////////////////////////////////////// */
+:root {
+  --clr-main: #fff;
+  --clr-secondary: #c3c3c3;
+  --bg-dark: #1e1e1e;
+
+  --clr-btn-primary: #7cf997;
+  --clr-btn-primary-hover: rgb(58, 222, 94);
+
+  --box-shadow-primary: 2px 2px 7px 1px rgba(255, 255, 255, 0.4);
+  --box-shadow-hover: 2px 2px 10px 1px rgba(255, 255, 255, 0.2);
+}
+
 /* /////////////////////////////////////////////// */
 /* //////////////// RESET ///////////// */
 /* //////////////////////////////////////////////// */
@@ -26,18 +42,6 @@ p {
 
 html {
   font-size: 10px;
-}
-
-:root {
-  --clr-main: #fff;
-  --clr-secondary: #c3c3c3;
-  --bg-dark: #1e1e1e;
-
-  --clr-btn-primary: #7cf997;
-  --clr-btn-primary-hover: rgb(58, 222, 94);
-
-  --box-shadow-primary: 2px 2px 7px 1px rgba(255, 255, 255, 0.4);
-  --box-shadow-hover: 2px 2px 10px 1px rgba(255, 255, 255, 0.2);
 }
 
 body {
