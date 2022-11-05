@@ -66,6 +66,10 @@ section {
 .project__title {
   font-size: 3.2rem;
   color: var(--clr-main);
+
+  animation-name: moveFromRight;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 .project__info {
   font-size: 2.5rem;
@@ -74,4 +78,22 @@ section {
 
   margin-top: 2rem;
   opacity: 50%;
+
+  animation-name: moveFromRight;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveFromRight {
+  0% {
+    transform: translateX(1rem);
+  }
+
+  50% {
+    transform: translateX(2rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
 }
