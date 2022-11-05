@@ -83,4 +83,4 @@
 ```
 
 <hr />
-<h3>❤️ Show yout love ❤️</h3>
+<h3>❤️ Show your love ❤️</h3>
