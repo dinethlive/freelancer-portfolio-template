@@ -34,7 +34,7 @@ html {
   --bg-dark: #1e1e1e;
 
   --clr-btn-primary: #7cf997;
-  --clr-btn-primary-hover: rgb(107, 213, 130);
+  --clr-btn-primary-hover: rgb(58, 222, 94);
 
   --box-shadow-primary: 2px 2px 7px 1px rgba(255, 255, 255, 0.4);
   --box-shadow-hover: 2px 2px 10px 1px rgba(255, 255, 255, 0.2);
@@ -127,10 +127,10 @@ section {
 }
 .project__button:hover {
   transition: all 0.3s ease-in;
+  color: var(--clr-main);
   transform: translateY(-0.25rem);
 
   background-color: var(--clr-btn-primary-hover);
-  color: var(--bg-dark);
   box-shadow: var(--box-shadow-hover);
 }
 
@@ -147,18 +147,34 @@ section {
 .footer__profile__pic {
   width: 29rem;
   border-radius: 50%;
+  transition: all 0.3s ease-out;
 }
+.footer__profile__pic:hover {
+  transition: all 0.3s ease-in;
+  transform: translateY(-1rem);
+
+  box-shadow: var(--box-shadow-hover);
+}
+
 .footer__button {
   padding: 2rem 12rem;
   border-radius: 20rem;
   font-size: 2.5rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.25rem;
   background-color: var(--clr-btn-primary);
   color: var(--bg-dark);
   font-weight: 600;
   border: none;
+
+  transition: all 0.3s ease-out;
 }
 
+.footer__button:hover {
+  background-color: var(--clr-btn-primary-hover);
+  transition: all 0.3s ease-in;
+  transform: translateY(-0.5rem);
+  box-shadow: var(--box-shadow-hover);
+}
 .footer__profile__name {
   font-weight: 500;
   font-size: 3rem;
