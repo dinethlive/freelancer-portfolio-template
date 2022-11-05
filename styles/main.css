@@ -137,6 +137,7 @@ section {
 .footer__wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 .footer__pofile {
   display: flex;
