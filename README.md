@@ -11,7 +11,7 @@
   <li>Unplash for images</li>
 </ul>
 <hr />
-<h2>🔥 How to Add Your Projects ?</h2>
+<h2>🔥 How to Replace existing projects with your projects ?</h2>
 <p>
   You can see reusable components in components folder. So far I already added
   <i>Projects</i> folder for adding new projects
